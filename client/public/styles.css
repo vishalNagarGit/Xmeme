@@ -1,0 +1,55 @@
+
+
+
+.card{
+    width:500px;
+    margin-top: 50px;
+}
+
+.card-body{
+    padding:0%
+}
+
+.card-text{
+    padding:16px;
+}
+
+
+
+.card-text{
+    margin:0%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+}
+
+
+
+#root{
+    height: 100%;
+}
+
+/* .flex-child {
+    flex: 1;
+
+    margin-top: 10px;
+    max-width: px;
+    min-width: 100px;
+}  */
+
+.form-group{
+    margin-top: 20px;
+}
+
+.memeform{
+    text-align: left;
+    margin-bottom: 10px;
+    width:500px;
+}
+
+
