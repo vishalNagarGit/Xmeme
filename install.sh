@@ -23,5 +23,15 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 nvm install node
 
 
+# npm
+
+
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+
+
+sudo apt install -y nodejs
+sudo apt install -y npm
+
+
 
 

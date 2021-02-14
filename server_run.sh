@@ -20,7 +20,7 @@
 # backend
 cd server
 
-# npm install
+npm install
 sudo kill $(sudo lsof -t -i:8081)
 export DB_URL='mongodb://127.0.0.1:27017/xmeme'
 echo $DB_URL

@@ -20,6 +20,7 @@ var app = express();
 // app.set('views', path.join(__dirname, 'views'));
 // app.set('view engine', 'jade');
 
+
 app.use(cors({ origin: true }));
 app.use(logger('dev'));
 app.use(express.json());
@@ -54,3 +55,4 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
